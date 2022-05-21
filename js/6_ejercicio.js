@@ -7,11 +7,10 @@
 55555
 666666*/
 
-for(let numero = 1; numero <=30 ; numero++){
-    //document.write(`Elemento ${numero} <br>`)
+for (let numero = 1; numero <= 30; numero++) {
     
-    for(let repetir = 1; repetir <=numero ; repetir++){
-        document.write(`${numero}`)
-    }
-    document.write(`<br>`)
- }
+  for (let repetir = 1; repetir <= numero; repetir++) {
+    document.write(`${numero}`);
+  }
+  document.write(`<br>`);
+}

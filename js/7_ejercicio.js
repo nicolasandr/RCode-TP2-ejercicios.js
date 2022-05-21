@@ -9,9 +9,9 @@ indica 30).
 22
 1
 */
-let nota = parseInt(prompt("ingrese un numero del 1 al 50:"));
-if (nota >= 1 && nota <= 50) {
-  for (let numero = nota ; numero >= 1 ; numero--) {
+let numIngresado = parseInt(prompt("ingrese un numero del 1 al 50:"));
+if (numIngresado >= 1 && numIngresado <= 50) {
+  for (let numero = numIngresado ; numero >= 1 ; numero--) {
 
     for (let repetir = numero; repetir >= 1; repetir--) {
       document.write(`${numero}`);
