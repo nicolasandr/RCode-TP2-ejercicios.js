@@ -7,7 +7,6 @@ let letras= prompt(`ingrese un texto`);
 let tamanio= letras.length;
 let i=0;
 while(i < tamanio){
- 
   document.write(`${letras.charAt(i)}`)
   if(i<tamanio-1)
   document.write(`-`);
