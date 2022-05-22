@@ -19,7 +19,7 @@ do{
       {
           if(num>0 && num<=99999999)
       {
-          for(let i=0; i < 20; i++)
+          for(let i=0; i < 22; i++)
           {
             if((num%23) == i){
             document.write(`al numero ${num} le corresponde la letra ${palabra.charAt(i)} que esta en la posicion ${(num%23)+1}<br>`);
