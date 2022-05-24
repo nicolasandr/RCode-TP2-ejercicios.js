@@ -18,4 +18,4 @@ for (let numero = 1; numero <= numIngresado ; numero++) {
     document.write(`<br>`);
   }
 }else 
-alert('numero no valido');
+  alert('numero no valido');
