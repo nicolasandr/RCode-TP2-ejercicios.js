@@ -17,5 +17,5 @@ if (numIngresado >= 1 && numIngresado <= 50) {
       document.write(`${numero}`);
     }
     document.write(`<br>`);
-  }
+  } 
 }
